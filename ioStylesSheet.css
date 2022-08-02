@@ -51,15 +51,18 @@ nav .a{
     font-weight: 700;
 }
 nav a:hover{
-    background-color: peru;
-    color: burlywood;
+    background-color: #cd853f;
+    color: #deb887;
+    padding: 30px 10px;
 }
-.banner-area{
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("mi0zdemir.ioBanner.png");
+.header-image{
+    background-image: url("mi0zdemir.ioBanner\ \(1\).png");
     background-size:cover;
-    background-position: center center;
-    top: 100px; //moveBelowNav
-    height:100vh;
-    position: fixed;
-    padding-top: 75%;
+    border: 10px solid burlywood;
+	background-position: center;
+	background-origin: content-box;
+	background-repeat: no-repeat;
+	height: 350px;
+    width: auto;
+    padding-top: 110px; 
 }
