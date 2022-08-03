@@ -9,20 +9,30 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: 'Inconsolata';
     text-align: center;
 }
-.wrapper{
+
+.wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+
+.header-wrapper{
     width: 90%;
     margin: 0 auto;
 }
+
 header{
     width: 100%;
     height: 100px;
     background-color: burlywood;
     position: fixed;
 }
+
 .logo{
     width: 30%;
     float: left;
@@ -33,36 +43,88 @@ header{
     text-decoration: none;
     font-size: 30px;
     font-family: 'Permanent Marker', cursive;
-    color: peru;
+    color: antiquewhite;
     letter-spacing: 1px;
 }
+
 nav{
     float: right;
     line-height: 100px;
+    
 }
 nav .a{
     text-decoration: none;
     font-family: 'Inconsolata', monospace;
     letter-spacing: 1px;
     font-size: 20px;
-    font:bold peru;
+    color: antiquewhite;
     padding: 30px 10px;
     margin: 0 5px;
-    font-weight: 700;
+    font-weight: 700;  
+}
+nav a:link{
+    color: #cd853f;
+    background-color: antiquewhite;
+    padding: 30px 10px;
+}
+nav a:active{
+    background-color: #cd853f;
+    color: #deb887;
+    padding: 30px 10px;
+}
+nav a:visited{
+    color: #cd853f;
+    background-color: antiquewhite;
+    padding: 10px 5px;
 }
 nav a:hover{
     background-color: #cd853f;
     color: #deb887;
     padding: 30px 10px;
 }
+
 .header-image{
     background-image: url("mi0zdemir.ioBanner\ \(1\).png");
     background-size:cover;
-    border: 10px solid burlywood;
-	background-position: center;
-	background-origin: content-box;
-	background-repeat: no-repeat;
-	height: 350px;
-    width: auto;
-    padding-top: 110px; 
+    border: 0px solid burlywood;
+	background-position: center center center center;
+    top: 100px;
+	height: 55%;
+    width: 100%;
+    position: fixed;
+}
+
+.header-image:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color:#deb887;
+    opacity: .2;
+    z-index: -1;
+}
+
+.content-area{
+    width: 100%;
+    height: 880px;
+    position: relative;
+    top: 550px;
+    padding-top: 5%;
+    background-color: #deb887;
+}
+.content-area h2{
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Permanent Marker';
+    color: antiquewhite;
+}
+.content-area p{
+    color:#cd853f;
+    background-color: antiquewhite;
+    padding:5%;
+    line-height: 35px;
+    
 }
