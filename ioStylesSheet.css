@@ -84,12 +84,12 @@ nav a:hover{
 }
 
 .header-image{
-    background-image: url("mi0zdemir.ioBanner\ \(1\).png");
+    background-image: url("mi0zdemir.ioBanner\ \(2\).png");
     background-size:cover;
     border: 0px solid burlywood;
-	background-position: center center center center;
+	background-position: center center;
     top: 100px;
-	height: 55%;
+	height: 75%;
     width: 100%;
     position: fixed;
 }
