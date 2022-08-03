@@ -87,11 +87,14 @@ nav a:hover{
     background-image: url("mi0zdemir.ioBanner\ \(2\).png");
     background-size:cover;
     border: 0px solid burlywood;
-	background-position: center center;
-    top: 100px;
-	height: 75%;
-    width: 100%;
+	background-position: center center center;
+    
     position: fixed;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+    text-align: center;
 }
 
 .header-image:after{
@@ -109,9 +112,13 @@ nav a:hover{
 
 .content-area{
     width: 100%;
-    height: 880px;
+    height: 600px;
     position: relative;
-    top: 550px;
+    top: 800px;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    text-align: center;
     padding-top: 5%;
     background-color: #deb887;
 }
