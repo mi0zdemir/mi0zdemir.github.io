@@ -147,8 +147,8 @@ nav a:hover{
   
   /* Clear floats after the columns */
   .row:after {
-    height: 500px;
     content: "";
+    grid-template-rows: 100px 1 fr;
     display: table;
     clear: both;
   }
