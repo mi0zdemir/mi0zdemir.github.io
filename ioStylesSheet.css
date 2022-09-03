@@ -140,20 +140,15 @@ nav a:hover{
     
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
+  }
+
+  .section-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 150px);
   }
