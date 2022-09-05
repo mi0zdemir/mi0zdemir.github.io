@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Quattrocento';
+    text-align: center;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: 0 auto;
+    width: 960px;
+}
+
+.header-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+}
+
+.logo{
+    width: 50%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Quattrocento', cursive;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+nav{
+    float: right;
+    line-height: 100px;  
+}
+
+nav .a{
+    text-decoration: none;
+    font-family: 'Quattrocento' monospace;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: black;
+    padding: 30px 10px;
+    margin: 0 5px;
+    font-weight: 700;  
+}
+
+nav a:link{
+    color: black;
+    background-color: whitesmoke;
+    padding: 30px 10px;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px 10px;
+    text-decoration: none;
+}
+
+nav a:active{
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px 10px;
+    text-decoration: none;
+}
+
+.header-image{
+    background-image: url(Images/ohmidear.banner.png);
+    background-size: cover;
+    border: 0px solid whitesmoke;
+    background-position: center center center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.content-area{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 800px;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    text-align: center;
+    padding-top: 5%;
+    background-color: black;
+}
+
+.content-area h2{
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Quattrocento';
+    color: whitesmoke;
+}
+
+.content-area p{
+    color:whitesmoke;
+    background-color: black;
+    padding:5%;
+    line-height: 35px;  
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .section-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    color: whitesmoke;
+    background-color: black;
+  }
+
