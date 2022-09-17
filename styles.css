@@ -155,6 +155,7 @@ nav a:active{
   .section-grid a:hover{
     padding: 20px 5px;
     text-decoration: none;
+    opacity: .9;
   }
 
   /*still only appearing as a grid, not responsive yet, firugre out the ::after to add*/
