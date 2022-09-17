@@ -35,10 +35,12 @@ body{
 }
 
 header{
-    width: 100%;
-    height: 100px;
+    overflow: hidden;
     background-color: #2A2D30;
     position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
 }
 
 nav{
@@ -149,6 +151,13 @@ nav a:active{
     text-decoration: none;
     opacity: .7;
   }
+
+  .section-grid a:hover{
+    padding: 20px 5px;
+    text-decoration: none;
+  }
+
+  /*still only appearing as a grid, not responsive yet, firugre out the ::after to add*/
 
   @media screen and (max-width: 600px) {
     .column {
