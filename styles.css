@@ -59,8 +59,8 @@ nav .a{
 }
 
 nav a:link{
-    color: #2A2D30;
-    background-color: whitesmoke;
+    color: whitesmoke;
+    background-color: #2A2D30;
     padding: 30px 10px;
     text-decoration: none;
 }
@@ -104,10 +104,9 @@ nav a:active{
 }
 
 .content-area{
-    width: 100%;
+    max-width: 100%;
     position: relative;
-    background-size: cover;
-    top: 800px;
+    top: 850px;
     left: 0;
     right: 0;
     bottom: 50%;
@@ -115,6 +114,7 @@ nav a:active{
     padding-top: 10%;
     background-color: #2A2D30;
     background-image: url(Images/ohmidear.content-area.png);
+    background-size: cover;
 }
 
 .content-area h2{
@@ -132,17 +132,26 @@ nav a:active{
     line-height: 35px;  
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
-
 .section-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     color: whitesmoke;
     background-color: #2A2D30;
     padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .section-grid a{
+    background-color: #2A2D30;
+    color: whitesmoke;
+    padding: 30px 10px;
+    text-decoration: none;
+    opacity: .7;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
   }
